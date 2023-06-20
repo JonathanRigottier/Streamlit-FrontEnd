@@ -15,7 +15,7 @@ with dataset:
 	st.header('NYC taxi dataset')
 	st.text('I found this dataset on blablable.com, ...')
 
-	titanic = pd.read_csv('data/titanic.csv')
+	titanic = pd.read_csv('Data/titanic.csv')
 	st.write(titanic.head())
 
 	st.subheader('Age of the titanic passenger')
